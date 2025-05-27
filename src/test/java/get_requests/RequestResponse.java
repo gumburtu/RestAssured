@@ -1,8 +1,12 @@
 package get_requests;
 
 import io.restassured.RestAssured;
-import io.restassured.RestAssured.*;
+import io.restassured.response.Response;
 import org.testng.annotations.Test;
+
+import java.util.Scanner;
+
+import static io.restassured.RestAssured.*;
 
 public class RequestResponse {
 
@@ -21,15 +25,28 @@ public class RequestResponse {
         2- Set the expected data => Beklenen datayi ayarlayın
         3- Send request get response => isteği gönderin ve cevabi alin
         4- Do assertion => response tan doğrulamalar yapin
+
      */
 
     @Test
     public void test01() {
-        RestAssured.given()
-                .when()
-                .get("https://restful-booker.herokuapp.com/booking")
-                .then()
-                .statusCode(200)
-                .log().all();
+
+        String url = "https://petstore.swagger.io/v2/pet/5";
+
+        Response response = given().when().get(url);
+        response.print();
+        response.prettyPrint();
+
+        System.out.println("response.statusCode() = " + response.statusCode());
+
+        System.out.println("response.contentType() = " + response.contentType());
+
+        System.out.println("response.headers() = \n" + response.headers());
+
+        System.out.println("response.header(\"Server\") = " + response.header("Server"));
+
+        System.out.println("response.time() = " + response.time());
     }
+
+
 }
