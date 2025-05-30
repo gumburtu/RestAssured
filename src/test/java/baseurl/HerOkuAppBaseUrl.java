@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 
-public class HerOkuAppStoreBaseUrl {
+public class HerOkuAppBaseUrl {
 
     /*
     Her test ten önce calisarak ihtiyac duyabileceğimiz cesitli configurasyonlari tamamlamaktir
@@ -13,13 +13,13 @@ public class HerOkuAppStoreBaseUrl {
     böylece testlerin bakimi daha kolay olur
      */
     protected RequestSpecification spec;
-
     @BeforeMethod
     public void setUp() {
-
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://petstore.swagger.io/v2")
+                .setBaseUri("https://restful-booker.herokuapp.com")
                 .setContentType(ContentType.JSON)
                 .build();
     }
+
+
 }
