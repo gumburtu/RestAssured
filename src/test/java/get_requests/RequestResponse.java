@@ -47,6 +47,4 @@ public class RequestResponse {
 
         System.out.println("response.time() = " + response.time());
     }
-
-
 }
