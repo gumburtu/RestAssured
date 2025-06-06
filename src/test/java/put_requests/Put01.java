@@ -2,6 +2,7 @@ package put_requests;
 
 import baseurl.JsonPlaceHolderBaseUrl;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;

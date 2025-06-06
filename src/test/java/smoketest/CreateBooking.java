@@ -11,6 +11,7 @@ import pojos.HerOkuAppPostResponsePojo;
 import static io.restassured.RestAssured.given;
 
 public class CreateBooking extends HerOkuAppBaseUrl {
+    public static Object bookingid;
 
       /*
    Given
