@@ -42,6 +42,7 @@ public class UpdateBooking extends HerOkuAppBaseUrl {
         },
         "additionalneeds" : "Dinner"
         }
+
      */
 
     @Test
