@@ -11,7 +11,6 @@ public class PetStoreBaseUrl {
     Her test ten önce calisarak ihtiyac duyabileceğimiz cesitli configurasyonlari tamamlamaktir
     Mesela Baseurl, content type, authorization gibi yapilandirmalari tek bir merkezden güncellemeyi saglar
     böylece testlerin bakimi daha kolay olur
-
      */
     protected RequestSpecification spec;
 
