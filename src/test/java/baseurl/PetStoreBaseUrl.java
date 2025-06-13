@@ -12,6 +12,7 @@ public class PetStoreBaseUrl {
     Mesela Baseurl, content type, authorization gibi yapilandirmalari tek bir merkezden güncellemeyi saglar
     böylece testlerin bakimi daha kolay olur
 
+
      */
     protected RequestSpecification spec;
 
