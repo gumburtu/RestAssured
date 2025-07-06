@@ -22,6 +22,5 @@ public class PetStoreBaseUrl {
                 .setBaseUri("https://petstore.swagger.io/v2")
                 .setContentType(ContentType.JSON)
                 .build();
-
     }
 }
