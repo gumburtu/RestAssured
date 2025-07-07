@@ -23,7 +23,5 @@ public class PetStoreBaseUrl {
                 .setContentType(ContentType.JSON)
                 .build();
 
-
-
     }
 }
