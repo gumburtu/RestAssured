@@ -68,6 +68,8 @@ public class UpdateBooking extends HerOkuAppBaseUrl {
         Assert.assertEquals(actualData.getBookingdates().getCheckin(), bookingDatesPojo.getCheckin());
         Assert.assertEquals(actualData.getBookingdates().getCheckout(), bookingDatesPojo.getCheckout());
         Assert.assertEquals(actualData.getAdditionalneeds(), expectedData.getAdditionalneeds());
+        Assert.assertEquals(actualData.getAdditionalneeds(), expectedData.getAdditionalneeds());
+
 
     }
 }
