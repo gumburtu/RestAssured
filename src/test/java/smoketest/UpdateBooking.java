@@ -46,7 +46,7 @@ public class UpdateBooking extends HerOkuAppBaseUrl {
 
     @Test
     public void test01() {
-
+//kimw diyorum
         // 1- Set the url =>API in end pointi ayarlayin
         spec.pathParams("first", "booking", "second", CreateBooking.bookingid);
 
