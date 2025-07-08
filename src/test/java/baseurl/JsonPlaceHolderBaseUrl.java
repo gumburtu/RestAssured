@@ -20,6 +20,7 @@ public class JsonPlaceHolderBaseUrl {
                 .setContentType(ContentType.JSON)
                 .build();
         //du bakalim
+
     }
 
 
