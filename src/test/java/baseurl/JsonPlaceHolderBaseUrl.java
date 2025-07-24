@@ -19,7 +19,7 @@ public class JsonPlaceHolderBaseUrl {
                 .setBaseUri("https://jsonplaceholder.typicode.com")
                 .setContentType(ContentType.JSON)
                 .build();
-        //du bakalim
+        //du bakalim neler olacak
 
     }
 
